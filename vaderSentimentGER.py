@@ -307,8 +307,8 @@ class SentimentIntensityAnalyzer(object):
             lex_dict[word] = float(measure)
         #for key,val in lex_dict.items():
         #    print (key, "\t\t", val)
-        with open('outputmap.txt', 'w') as f:
-            print (lex_dict, file=f)
+        """ with open('outputmap.txt', 'w') as f:
+            print (lex_dict, file=f) """
         return lex_dict
 
     def make_emoji_dict(self):
